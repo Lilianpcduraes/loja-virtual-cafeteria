@@ -1,0 +1,52 @@
+2022-10-07T13:42:17+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\wordpress\wordpress\wp-admin\includes\class-custom-image-header.php:1276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress\wp-admin\includes\class-custom-image-header.php(1382): Custom_Image_Header->get_header_dimensions(Array)
+#1 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(307): Custom_Image_Header->ajax_header_crop('')
+#2 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown, em C:\xampp\htdocs\wordpress\wordpress\wp-admin\includes\class-custom-image-header.php, na linha 1276
+
+2022-10-07T13:42:39+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\wordpress\wordpress\wp-admin\includes\class-custom-image-header.php:1276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress\wp-admin\includes\class-custom-image-header.php(1382): Custom_Image_Header->get_header_dimensions(Array)
+#1 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(307): Custom_Image_Header->ajax_header_crop('')
+#2 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown, em C:\xampp\htdocs\wordpress\wordpress\wp-admin\includes\class-custom-image-header.php, na linha 1276
+
+2022-10-07T13:55:18+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\wordpress\wordpress\wp-admin\includes\class-custom-image-header.php:1276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress\wp-admin\includes\class-custom-image-header.php(1382): Custom_Image_Header->get_header_dimensions(Array)
+#1 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(307): Custom_Image_Header->ajax_header_crop('')
+#2 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown, em C:\xampp\htdocs\wordpress\wordpress\wp-admin\includes\class-custom-image-header.php, na linha 1276
+
+2022-10-07T13:57:49+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\wordpress\wordpress\wp-admin\includes\class-custom-image-header.php:1276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress\wp-admin\includes\class-custom-image-header.php(1382): Custom_Image_Header->get_header_dimensions(Array)
+#1 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(307): Custom_Image_Header->ajax_header_crop('')
+#2 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown, em C:\xampp\htdocs\wordpress\wordpress\wp-admin\includes\class-custom-image-header.php, na linha 1276
+
+2022-10-07T21:14:57+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Elementor\Compatibility does not have a method "init" in C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wordpress\wp-settings.php(598): do_action('init')
+#3 C:\xampp\htdocs\wordpress\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown, em C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php, na linha 307
+
